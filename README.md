@@ -10,14 +10,12 @@ Building a model to take English sentences as input from the user and analyse th
 - Error Detection: Identifies various types of grammatical errors such as punctuation mistakes, subject-verb agreement issues, incorrect word usage, etc.
 - Performance: Achieves high accuracy in error detection and correction through fine-tuning on large-scale text corpora.
 
-## T5 Large Model Trained on JFLEG and Facebook BART CNN
-This repository contains a T5 Large model fine-tuned on JFLEG and Facebook BART CNN datasets for the task of grammatical error correction (GEC).
-
-Model Description
+## Model used
+### 1. T5 Large Model Trained on JFLEG 
 The T5 (Text-To-Text Transfer Transformer) model is a transformer-based model introduced by Google Research, capable of performing a wide range of NLP tasks using a unified text-to-text framework. This particular instance of the T5 model is based on the "large" variant, which has 770M parameters.
-
-Pretraining
 Pretrained on JFLEG: The model was first pretrained on the JFLEG dataset, which is a benchmark dataset for grammatical error correction.
+
+### 2. Facebook BART CNN
 Fine-tuned on Facebook BART CNN: Subsequently, the model was fine-tuned on the Facebook BART CNN dataset, which is another corpus designed for improving grammatical error correction systems using news data.
 
 ## Model Training 
