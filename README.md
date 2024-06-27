@@ -8,7 +8,7 @@ Building a model to take English sentences as input from the user and analyse th
 
 ## Features
 - Error Detection: Identifies various types of grammatical errors such as punctuation mistakes, subject-verb agreement issues, incorrect word usage, etc.
-- Performance: Achieves high accuracy in error detection and correction through fine-tuning on large-scale text corpora.
+- Performance: Achieves high accuracy in error detection and correction through pre-trained fine-tuning.
 
 ## Model used
 ### 1. T5 Large Model Trained on JFLEG 
@@ -23,7 +23,7 @@ Fine-tuned on Facebook BART CNN: Subsequently, the model was fine-tuned on the F
 - Fine-tuning: The model was fine-tuned on the Facebook BART CNN dataset, which contains news articles, further enhancing its ability to correct errors in formal and journalistic text.
 
 Our final code is as follows:\
-https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sharing
+[https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sharing](https://colab.research.google.com/drive/1As1IXEm23E5vbUuXt_3Da984-ZmCyT8q?usp=sharing#scrollTo=RKfKyWYHRTc3)
 
 ## Contributors
 - [Shreeyut Maheswari](https://github.com/search?q=shreeyut1905&type=users)
@@ -37,6 +37,20 @@ https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sh
 ## Acknowledgments
 - Google Research: For developing and releasing the T5 model architecture.
 - JFLEG and Facebook BART CNN: For providing the datasets used for pretraining and fine-tuning.
+
+  ## Refrences
+  - [https://numpy.org/doc/](https://numpy.org/doc/)
+  - [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
+  - [https://www.tensorflow.org/api_docs](https://www.tensorflow.org/api_docs)
+  - [https://pytorch.org/docs/stable/index.html](https://pytorch.org/docs/stable/index.html)
+  - [https://www.kaggle.com/](https://www.kaggle.com/)
+  - [https://github.com/jadore801120/attention-is-all-you-need-pytorch.git](https://github.com/jadore801120/attention-is-all-you-need-pytorch.git)
+  - [https://huggingface.co/datasets/liweili/c4_200m](https://huggingface.co/datasets/liweili/c4_200m)
+  - [https://huggingface.co/pszemraj/flan-t5-large-grammar-synthesis](https://huggingface.co/pszemraj/flan-t5-large-grammar-synthesis)
+  - [https://github.com/PrithivirajDamodaran/Gramformer](https://github.com/PrithivirajDamodaran/Gramformer)
+  - [https://textblob.readthedocs.io/en/dev/](https://textblob.readthedocs.io/en/dev/)
+  - [https://huggingface.co/docs/transformers/en/model_doc/t5](https://huggingface.co/docs/transformers/en/model_doc/t5)
+  - [https://github.com/inferless/Facebook-bart-cnn](https://github.com/inferless/Facebook-bart-cnn)
 
 
 
