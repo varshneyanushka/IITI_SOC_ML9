@@ -38,19 +38,19 @@ Our final code is as follows:\
 - Google Research: For developing and releasing the T5 model architecture.
 - JFLEG and Facebook BART CNN: For providing the datasets used for pretraining and fine-tuning.
 
-  ## Refrences
-  - [https://numpy.org/doc/](https://numpy.org/doc/)
-  - [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
-  - [https://www.tensorflow.org/api_docs](https://www.tensorflow.org/api_docs)
-  - [https://pytorch.org/docs/stable/index.html](https://pytorch.org/docs/stable/index.html)
-  - [https://www.kaggle.com/](https://www.kaggle.com/)
-  - [https://github.com/jadore801120/attention-is-all-you-need-pytorch.git](https://github.com/jadore801120/attention-is-all-you-need-pytorch.git)
-  - [https://huggingface.co/datasets/liweili/c4_200m](https://huggingface.co/datasets/liweili/c4_200m)
-  - [https://huggingface.co/pszemraj/flan-t5-large-grammar-synthesis](https://huggingface.co/pszemraj/flan-t5-large-grammar-synthesis)
-  - [https://github.com/PrithivirajDamodaran/Gramformer](https://github.com/PrithivirajDamodaran/Gramformer)
-  - [https://textblob.readthedocs.io/en/dev/](https://textblob.readthedocs.io/en/dev/)
-  - [https://huggingface.co/docs/transformers/en/model_doc/t5](https://huggingface.co/docs/transformers/en/model_doc/t5)
-  - [https://github.com/inferless/Facebook-bart-cnn](https://github.com/inferless/Facebook-bart-cnn)
+## Refrences
+- [Numpy documentation](https://numpy.org/doc/)
+- [Pandas documentaion](https://pandas.pydata.org/docs/)
+- [Tensorflow documentataion](https://www.tensorflow.org/api_docs)
+- [Pytorch documentation](https://pytorch.org/docs/stable/index.html)
+- [Kaggle](https://www.kaggle.com/)
+- [PyTorch implementation of the Transformer model in "Attention is All You Need" ](https://github.com/jadore801120/attention-is-all-you-need-pytorch.git)
+- [Huggingface dataset- liweili c4_200m](https://huggingface.co/datasets/liweili/c4_200m)
+- [Huggingface  fine-tuned version of flan-t5-large-grammar-synthesis  for grammar correction on an expanded version of the JFLEG dataset](https://huggingface.co/pszemraj/flan-t5-large-grammar-synthesis)
+- [Github- Gramformer](https://github.com/PrithivirajDamodaran/Gramformer)
+- [TextBlob: Simplified Text Processing](https://textblob.readthedocs.io/en/dev/)
+- [Huggingface transformers model- t5](https://huggingface.co/docs/transformers/en/model_doc/t5)
+- [Github- Facebook-bart-cnn](https://github.com/inferless/Facebook-bart-cnn)
 
 
 
