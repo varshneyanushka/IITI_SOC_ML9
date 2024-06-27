@@ -18,9 +18,6 @@ Pretrained on JFLEG: The model was first pretrained on the JFLEG dataset, which 
 ### 2. Facebook BART CNN
 Fine-tuned on Facebook BART CNN: Subsequently, the model was fine-tuned on the Facebook BART CNN dataset, which is another corpus designed for improving grammatical error correction systems using news data.
 
-## Model Training 
-- Data Preparation: JFLEG dataset was used for initial pretraining, focusing on grammatical error detection and correction.
-- Fine-tuning: The model was fine-tuned on the Facebook BART CNN dataset, which contains news articles, further enhancing its ability to correct errors in formal and journalistic text.
 
 Our final code is as follows:\
 [https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sharing](https://colab.research.google.com/drive/1As1IXEm23E5vbUuXt_3Da984-ZmCyT8q?usp=sharing#scrollTo=RKfKyWYHRTc3)
