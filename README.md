@@ -32,7 +32,7 @@ https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sh
 - [Vikash Kumar Singh](https://github.com/search?q=Vikas1177&type=users)
 
 ## Mentor
-- [Varshney Anushka](https://github.com/search?q=varshneyanushka&type=users)
+- [Anushka Varshney](https://github.com/search?q=varshneyanushka&type=users)
 
 ## Acknowledgments
 - Google Research: For developing and releasing the T5 model architecture.
