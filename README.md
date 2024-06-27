@@ -23,7 +23,7 @@ Our final code is as follows:\
 [https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sharing](https://colab.research.google.com/drive/1As1IXEm23E5vbUuXt_3Da984-ZmCyT8q?usp=sharing#scrollTo=RKfKyWYHRTc3)
 
 ## Sample Screenshots
-![Screenshot (1)](https://github.com/varshneyanushka/IITI_SOC_ML9/assets/152094795/1539a6b8-fea9-4ffd-9143-e41f0b594196)
+![Screenshot (3)](https://github.com/varshneyanushka/IITI_SOC_ML9/assets/152094795/43dcd4e9-49d7-42b8-a7ea-133a18afd185)
 ![Screenshot (2)](https://github.com/varshneyanushka/IITI_SOC_ML9/assets/152094795/9f94572e-0fca-4449-8067-f84de88057d0)
 
 
