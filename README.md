@@ -25,6 +25,8 @@ Fine-tuned on Facebook BART CNN: Subsequently, the model was fine-tuned on the F
 Our final code is as follows:\
 [https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sharing](https://colab.research.google.com/drive/1As1IXEm23E5vbUuXt_3Da984-ZmCyT8q?usp=sharing#scrollTo=RKfKyWYHRTc3)
 
+![Screenshot (1)](https://github.com/varshneyanushka/IITI_SOC_ML9/assets/152094795/1539a6b8-fea9-4ffd-9143-e41f0b594196)
+
 ## Contributors
 - [Shreeyut Maheswari](https://github.com/search?q=shreeyut1905&type=users)
 - [Srikanth Chebolu](https://github.com/search?q=Srikanth1234567808&type=users) 
