@@ -11,6 +11,15 @@ Building a model to take English sentences as input from the user and analyse th
 - Performance:  Achieves  high  accuracy  in  error detection and correction through pre-trained ﬁne- tuning.
 - Modiﬁcations:    Paraphrase    text,    Improved grammar  text,  Simpliﬁed  text,  Cohesivetext,  and Neutralized text.
 
+## Previous methods used:
+### 1.build and trained a transformer on scratch with the datasets
+first we tried building a transformer from scratch with the datasets but it was taking a lot time time to train and neither was giving good results.
+### 2.Using already pretrained and fine-tuned mmodels
+next we tried to use some pretrained and fine-tuned models like - [pszemraj/flan-t5-large-grammar-synthesis](https://huggingface.co/pszemraj/flan-t5-large-grammar-synthesis),[vennify/t5-base-grammar-correction](https://huggingface.co/vennify/t5-base-grammar-correction),[grammarly/coedit-large](https://huggingface.co/grammarly/coedit-large) but these were quiete large to load and many times the RAM of the computer was crashing while using them on our local machine and even on google colab.
+### 3.Fine-tuning pretrained models 
+we researched about different pre-trained transformer and we found that for text-to-text genearation related work like reasoning ,translating and answering T5 was good but due to limitations of computer features we used t5 small model for fine-tuning on the datasets.
+
+ 
 ## Model used
 ### 1. T5 Small Fine-tuned on grammarly coedit 
 The T5 (Text-To-Text Transfer Transformer) model is a transformer-based model introduced by Google Research, capable of performing a wide range of NLP tasks using a unified text-to-text framework. This particular instance of the T5 model is based on the "small" variant, which has 60M parameters.
