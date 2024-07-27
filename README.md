@@ -7,24 +7,25 @@ This Project is a Part of IITISoC'24
 Building a model to take English sentences as input from the user and analyse them and identify the grammatical error's and rectify them and return sentence with correct grammar and also suggest's a impressive way of writing those sentences which have a better impact on reader.
 
 ## Features
-- Error Detection: Identifies various types of grammatical errors such as punctuation mistakes, subject-verb agreement issues, incorrect word usage, etc.
-- Performance: Achieves high accuracy in error detection and correction through pre-trained fine-tuning.
+- Error	Detection:	Identiﬁes	various	types	of grammatical	errors	such	as	punctuation	mistakes,subject-verb  agreement  issues,  incorrect  word usage, etc
+- Performance:  Achieves  high  accuracy  in  error detection and correction through pre-trained ﬁne- tuning.
+- Modiﬁcations:    Paraphrase    text,    Improved grammar  text,  Simpliﬁed  text,  Cohesivetext,  and Neutralized text.
 
 ## Model used
-### 1. T5 Large Model Trained on JFLEG 
-The T5 (Text-To-Text Transfer Transformer) model is a transformer-based model introduced by Google Research, capable of performing a wide range of NLP tasks using a unified text-to-text framework. This particular instance of the T5 model is based on the "large" variant, which has 770M parameters.
-Pretrained on JFLEG: The model was first pretrained on the JFLEG dataset, which is a benchmark dataset for grammatical error correction.
+### 1. T5 Small Fine-tuned on grammarly coedit 
+The T5 (Text-To-Text Transfer Transformer) model is a transformer-based model introduced by Google Research, capable of performing a wide range of NLP tasks using a unified text-to-text framework. This particular instance of the T5 model is based on the "small" variant, which has 60M parameters.
+For ﬁne-tuning the coedit dataset was directly imported from hugging face , then data was preprocessed and padded. Then the tokenizer and model was imported from hugging face library and after ﬁne-tuning, the model was saved, for using it for future purposes.
 
-### 2. Facebook BART CNN
-Fine-tuned on Facebook BART CNN: Subsequently, the model was fine-tuned on the Facebook BART CNN dataset, which is another corpus designed for improving grammatical error correction systems using news data.
+### 2. T5 Small Fine- tuned on custom build dataset
+The sentences were searched from various english books, There  were  exercise  regarding  ﬁnding  the  grammatical error in the sentences and then it was made into csv ﬁle and then used for training purposes.
 
 
 Our final code is as follows:\
-[https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sharing](https://colab.research.google.com/drive/1As1IXEm23E5vbUuXt_3Da984-ZmCyT8q?usp=sharing#scrollTo=RKfKyWYHRTc3)
+[https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sharing](https://colab.research.google.com/github/varshneyanushka/IITI_SOC_ML9/blob/main/Mahabharat.ipynb)
 
 ## Sample Screenshots
-![Screenshot (3)](https://github.com/varshneyanushka/IITI_SOC_ML9/assets/152094795/43dcd4e9-49d7-42b8-a7ea-133a18afd185)
-![Screenshot (2)](https://github.com/varshneyanushka/IITI_SOC_ML9/assets/152094795/9f94572e-0fca-4449-8067-f84de88057d0)
+!["C:\Users\Vikash kumar singh\Desktop\WhatsApp Image 2024-07-27 at 00.01.41_fa68e742.jpg"](https://github.com/varshneyanushka/IITI_SOC_ML9/assets/152094795/43dcd4e9-49d7-42b8-a7ea-133a18afd185)
+
 
 
 ## Contributors
@@ -38,7 +39,7 @@ Our final code is as follows:\
 
 ## Acknowledgments
 - Google Research: For developing and releasing the T5 model architecture.
-- JFLEG and Facebook BART CNN: For providing the datasets used for pretraining and fine-tuning.
+- JFLEG: For providing the datasets used for pretraining and fine-tuning.
 
 ## Refrences
 - [Numpy documentation](https://numpy.org/doc/)
