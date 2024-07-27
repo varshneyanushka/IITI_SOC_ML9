@@ -24,7 +24,7 @@ Our final code is as follows:\
 [https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sharing](https://colab.research.google.com/github/varshneyanushka/IITI_SOC_ML9/blob/main/Mahabharat.ipynb)
 
 ## Sample Screenshots
-!["C:\Users\Vikash kumar singh\Desktop\WhatsApp Image 2024-07-27 at 00.01.41_fa68e742.jpg"](https://github.com/varshneyanushka/IITI_SOC_ML9/assets/152094795/43dcd4e9-49d7-42b8-a7ea-133a18afd185)
+!["C:\Users\Vikash kumar singh\Desktop\WhatsApp Image 2024-07-27 at 00.01.41_fa68e742.jpg"](https://github.com/varshneyanushka/IITI_SOC_ML9/blob/main/assets/WhatsApp%20Image%202024-07-27%20at%2000.01.41_fa68e742.jpg)
 
 
 
