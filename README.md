@@ -14,7 +14,7 @@ Building a model to take English sentences as input from the user and analyse th
 ## Previous methods used:
 ### 1.build and trained a transformer from  scratch with the datasets
 first we tried building a transformer from scratch with the datasets but it was taking a lot time time to train and neither was giving good results.
-### 2.Using already pretrained and fine-tuned mmodels
+### 2.Using already pretrained and fine-tuned models
 next we tried to use some pretrained and fine-tuned models like - [pszemraj/flan-t5-large-grammar-synthesis](https://huggingface.co/pszemraj/flan-t5-large-grammar-synthesis),[vennify/t5-base-grammar-correction](https://huggingface.co/vennify/t5-base-grammar-correction),[grammarly/coedit-large](https://huggingface.co/grammarly/coedit-large) but these were quiete large to load and many times the RAM of the computer was crashing while using them on our local machine and even on google colab.
 ### 3.Fine-tuning pretrained models 
 we researched about different pre-trained transformer and we found that for text-to-text genearation related work like reasoning ,translating and answering T5 was good but due to limitations of computer resources we used t5 small model for fine-tuning on the datasets.
@@ -31,6 +31,8 @@ The sentences were searched from various english books, There  were  exercise  r
 
 Our final code is as follows:\
 [https://colab.research.google.com/drive/1NcwPBNP96FExdc4dxDuji3l3rSzjljTK?usp=sharing](https://colab.research.google.com/github/varshneyanushka/IITI_SOC_ML9/blob/main/Mahabharat.ipynb)
+
+[Powerpoint presentation link](https://github.com/varshneyanushka/IITI_SOC_ML9/blob/main/assets/iitisoc9.pptx)
 
 ## Sample Screenshots
 !["C:\Users\Vikash kumar singh\Desktop\WhatsApp Image 2024-07-27 at 00.01.41_fa68e742.jpg"](https://github.com/varshneyanushka/IITI_SOC_ML9/blob/main/assets/WhatsApp%20Image%202024-07-27%20at%2000.01.41_fa68e742.jpg)
