@@ -39,7 +39,7 @@ Our final code is as follows:\
 
 ## Acknowledgments
 - Google Research: For developing and releasing the T5 model architecture.
-- JFLEG: For providing the datasets used for pretraining and fine-tuning.
+- JFLEG: For providing the datasets used for pretraining.
 
 ## Refrences
 - [Numpy documentation](https://numpy.org/doc/)
